@@ -11,3 +11,10 @@ Content-Type: application/json
   "breed": "scottish fold",
   "age": 3
 }
+###
+PATCH http://localhost:3000/kittens/1
+Content-Type:  application/json
+
+{
+  "name" : "catty61"
+}

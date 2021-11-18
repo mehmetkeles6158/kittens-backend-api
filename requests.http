@@ -1,7 +1,8 @@
 GET http://localhost:3000/kittens
 
 ###
-
+GET http://localhost:3000/kittens/1
+###
 POST http://localhost:3000/kittens
 Content-Type: application/json 
 

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get "/kittens" => "kittens#index"
   post "/kittens" =>"kittens#create"
+  get "/kittens/:id" =>"kittens#show"
 
   
 end

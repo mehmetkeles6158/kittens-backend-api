@@ -1,0 +1,12 @@
+GET http://localhost:3000/kittens
+
+###
+
+POST http://localhost:3000/kittens
+Content-Type: application/json 
+
+{
+  "name": "mavi",
+  "breed": "scottish fold",
+  "age": 3
+}
